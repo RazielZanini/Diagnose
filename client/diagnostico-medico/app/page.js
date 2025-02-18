@@ -74,7 +74,7 @@ export default function Home() {
                 </div>
               ))}
             <button
-              className="bg-slate-600 text-black mt-4 p-2 rounded-md w-1/2 self-center"
+              className="bg-emerald-500 text-black mt-4 p-2 rounded-md w-1/2 self-center"
               onClick={handleDiagnose}
             >
               Diagnosticar

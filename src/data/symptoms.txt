@@ -17,9 +17,7 @@
     "insonia": "Médio",
     "desmaio": "Irrelevante",
     "perda_olfato": "Médio",
-    "disease": "Doença A",
-    "Teste": "Forte",
-    "teste2": "Forte"
+    "disease": "Doença A"
   },
   {
     "id": "2",

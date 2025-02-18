@@ -31,6 +31,7 @@ function loadTrainingData() {
 function saveTrainingData(data) {
     try {
         fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
+        trainDecisionTree()
     } catch (error) {
         console.error("Erro ao salvar os dados:", error);
     }
@@ -113,6 +114,11 @@ app.post('/api/add-symptom', (req, res) => {
     }
 
     trainingData[diseaseIndex][symptom] = level;
+
+    if(!features.includes(symptom)){
+        features.push(symptom)
+        console.log("Novo sintoma adicionado a lista de features")
+    }
     
     saveTrainingData(trainingData);
     
