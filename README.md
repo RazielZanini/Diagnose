@@ -20,6 +20,10 @@ npm install
 
 Execute a aplicação:
 
+abra a pasta src e execute o arquivo server.js:
+node server.js
+
+abra a pasta client/diagnostico-medico:
 npm run dev
 
 Uso
