@@ -7,6 +7,11 @@ Diagnose é uma aplicação web desenvolvida para auxiliar no diagnóstico médi
 - Decisão baseada em árvore
 - Interface simples para profissionais da saúde
 
+## Tecnologias
+Node.js
+Express
+Árvore de Decisão (ID3)
+
 ## Instalação
 
 Clone o repositório:
@@ -26,13 +31,8 @@ node server.js
 abra a pasta client/diagnostico-medico:
 npm run dev
 
-Uso
+## Uso
 Acesse a aplicação no seu navegador:
 
 http://localhost:3000
 Insira sintomas para receber sugestões de diagnóstico.
-
-Tecnologias
-Node.js
-Express
-Árvore de Decisão (ID3)
