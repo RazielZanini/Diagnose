@@ -71,9 +71,6 @@ app.get('/api/symptoms', (req, res) => {
     res.json(trainingData);
 });
 
-// Rota para atualizar a tabela de treinamento completa
-// O corpo da requisição deve ser um array de objetos, cada um com os 16 sintomas e a propriedade "disease"
-// {\n  "dores_cabeca": "Forte",\n  "dores_peito": "Médio", ... ,\n  "perda_olfato": "Irrelevante",\n  "disease": "Doença A"\n}
 app.post('/api/symptoms', (req, res) => {
     trainingData = req.body;
     saveTrainingData(trainingData);
